@@ -88,11 +88,11 @@ function NavBar() {
 
             {click ? (
               <span className="icon">
-                <IoIosMenu />{" "}
+                <IoMdClose style={{ color: 'black', fontSize: '2.5rem' }} />{" "}
               </span>
             ) : (
               <span className="icon">
-                <IoMdClose />
+                <IoIosMenu style={{ color: 'black', fontSize: '2.5rem' }}  />
               </span>
             )}
           </div>
