@@ -1,0 +1,49 @@
+.contact-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ .btn-submit {
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  @media only screen and (max-width: 620px) {
+  
+    .contact-container  {
+      margin: 1rem 5rem;
+    }
+    
+    
+    }
+    
+    
+    @media only screen and (max-width: 885px) {
+      
+     
+      
+      
+      }

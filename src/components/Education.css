@@ -1,0 +1,84 @@
+/* Education.css */
+h1{
+  margin: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.education-container {
+    margin: 1rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .education-item {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(172, 46, 46, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: all 0.5s ease-out; /* Apply transition effect for smooth hover */
+    box-shadow: 0 0 20px rgba(120, 10, 10, 0.2); /* Add shadow effect on hover */
+
+    
+
+  }
+
+
+
+.education-item:hover {
+  background-color: rgb(206, 162, 245);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: black;
+  font-weight: bolder;
+}
+
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+
+  
+
+
+  
+  
+  
+
+  @media only screen and (max-width: 620px) {
+  
+    .education-container {
+      align-items: center;
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    }
+    
+    
+    @media only screen and (max-width: 885px) {
+      
+      .education-container {
+        align-items: center;
+        margin: 0rem 2rem 2rem ;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      }

@@ -1,0 +1,56 @@
+.hobbie{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container-hobbie{
+    margin: 1rem 10rem;
+}
+
+.hobbie > .circle{
+    flex-wrap: wrap;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(217, 191, 241);
+
+    border-radius: 25%;
+    box-shadow: 0 0 20px rgba(120, 10, 10, 0.2); /* Add shadow effect on hover */
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+
+@media only screen and (max-width: 620px) {
+  
+    .container-hobbie  {
+      margin: 0rem 5rem;
+    }
+
+    .hobbie{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    
+
+
+    
+    }
+    
+    
+    @media only screen and (max-width: 885px) {
+      
+        
+      
+      }

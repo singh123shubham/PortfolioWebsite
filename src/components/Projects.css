@@ -1,0 +1,130 @@
+.project-container{
+    margin: 1rem 10rem;
+    text-align: center;
+    
+
+}
+em{
+  font-size: large;
+  font-weight: bolder;
+}
+
+.project-container > h5{
+
+  font-weight: bold;
+}
+
+
+.project-description-box{
+  margin-bottom: 1rem;
+}
+
+.project-description-box > h6{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  
+}
+
+.project-description-box > h5{
+  color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.project-description-box > span{
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #797474; /* Dark grey color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Top and bottom padding 10px, left and right padding 20px */
+  margin: 10px; /* Margin around the button */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+  transition: background-color 0.3s ease; /* Smooth transition for the background color */
+}
+
+button:hover {
+  background-color: #575555; /* Slightly darker grey on hover */
+}
+.project-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease; 
+    box-shadow: 0 0 20px  rgba(205, 183, 238, 0.5);
+  }
+
+  .project-box:hover {
+    transform: scale(1.05); /* Grows by 5% when hovered over */
+    background-color: rgb(206, 162, 245);
+    box-shadow: 10px 10px 20px  rgba(205, 183, 238, 0.5);
+    font-weight: bold;
+
+}
+
+  
+  .view-details-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #7d8574;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  
+@media only screen and (max-width: 620px) {
+
+  
+  .project-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+  }
+  .project-description-box{
+    margin: 1rem 2rem;
+    text-align: justify;
+  }
+
+  .project-box{
+    margin: 0rem 2rem 2rem;
+  }
+  
+  }
+  
+  
+  @media only screen and (max-width: 885px) {
+    
+    .project-container {
+      align-items: center;
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-box{
+
+
+
+    }
+    
+    }
+  
