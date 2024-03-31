@@ -1,4 +1,51 @@
+import netflixImg from '../Assets/js.png'
+import travlepng from '../Assets/projectImg/travelpng.png'
+import travlepng1 from '../Assets/projectImg/travelpng1.png'
+import travlepng2 from '../Assets/projectImg/travelpng2.png'
+import travlepng3 from '../Assets/projectImg/travelpng3.png'
+import travlepng4 from '../Assets/projectImg/travelpng4.png'
+import travlepng5 from '../Assets/projectImg/travelpng5.png'
+import netflixImg1 from '../Assets/projectNetflixImg/netflixImg1.png'
+import netflixImg2 from '../Assets/projectNetflixImg/netflixImg2.png'
+import netflixImg3 from '../Assets/projectNetflixImg/netflixImg3.png'
+import netflixImg4 from '../Assets/projectNetflixImg/netflixImg4.png'
+import netflixImg5 from '../Assets/projectNetflixImg/netflixImg5.png'
+import netflixImg6 from '../Assets/projectNetflixImg/netflixImg6.png'
+import netflixImg7 from '../Assets/projectNetflixImg/netflixImg7.png'
+import netflixImg8 from '../Assets/projectNetflixImg/netflixImg8.png'
+import netflixImg9 from '../Assets/projectNetflixImg/netflixImg9.png'
+import netflixImg10 from '../Assets/projectNetflixImg/netflixImg10.png'
+import portfolioImg1 from '../Assets/portfoliImg/portfolioImg1.png'
+import portfolioImg2 from '../Assets/portfoliImg/portfolioImg2.png'
+import portfolioImg3 from '../Assets/portfoliImg/portfolioImg3.png'
+import portfolioImg4 from '../Assets/portfoliImg/portfolioImg4.png'
+import portfolioImg5 from '../Assets/portfoliImg/portfolioImg5.png'
+import portfolioImg6 from '../Assets/portfoliImg/portfolioImg6.png'
+import portfolioImg7 from '../Assets/portfoliImg/portfolioImg7.png'
+
+
 const projectData = [
+    { 
+        id: 0, 
+        title: "Netflix Clone", 
+        description: "The food ordering app project utilized Swiggy data from practice  purposes and implemented dynamic routing, custom hooks and code splitting using Parcel.js for optimal performance.Shimmer UI was utilized for real-time updates via APIs and asynchronous requests.The project helped expand knowledge in web development and provided valuable experience in building a user-friendly and practical apllication.", 
+        keyfeatures: "Shimmer Effect: Implemented for indicating data loading - 20% Infinite Scrolling: For seamless loading of new data - 15% Sorting of Restaurants: Enhances user experience - 10% Debouncing Effect: Reduces unnecessary requests - 10% Lazy Loading/Bundle Chunking: Improves initial loading speed - 20% React-Redux State Management: Optimizes state handling - 25% Overall, the optimization level achieved would be around 100% when considering these key features and their respective impacts on enhancing performance and user experience.",
+        techUsed: ["HTML", "CSS","JavaScript", "React","Tailwind CSS","Redux,Firebase,TMDB Movie API, etc.."],
+        liveLink: "https://example.com",
+        githubLink: "https://github.com/singh123shubham/NetlexClone",
+        galleryPhotos: [
+            netflixImg1,
+            netflixImg2,
+            netflixImg3,
+            netflixImg4,
+            netflixImg5, 
+            netflixImg6,
+            netflixImg7,
+            netflixImg8,
+            netflixImg9,
+            netflixImg10  
+        ]
+    },
     { 
         id: 1, 
         title: "Food Website Swiggy Clone", 
@@ -6,7 +53,7 @@ const projectData = [
         keyfeatures: "Shimmer Effect: Implemented for indicating data loading - 20% Infinite Scrolling: For seamless loading of new data - 15% Sorting of Restaurants: Enhances user experience - 10% Debouncing Effect: Reduces unnecessary requests - 10% Lazy Loading/Bundle Chunking: Improves initial loading speed - 20% React-Redux State Management: Optimizes state handling - 25% Overall, the optimization level achieved would be around 100% when considering these key features and their respective impacts on enhancing performance and user experience.",
         techUsed: ["HTML", "CSS","JavaScript", "React","Tailwind CSS","Redux"],
         liveLink: "https://example.com",
-        githubLink: "https://github.com/example"
+        githubLink: "https://github.com/singh123shubham"
     },
     { 
         id: 2, 
@@ -15,7 +62,7 @@ const projectData = [
         techUsed: ["Html, CSS, JavaScript"],
         keyfeatures: "The Flower Website Landing Page features stunning design with high-quality images and vibrant colors, providing a comprehensive price list for easy browsing. Interactive elements and cross-device compatibility enhance user engagement, driving conversion and retention rates.",
         liveLink: "https://example.com",
-        githubLink: "https://github.com/example"
+        githubLink: "https://github.com/singh123shubham"
     },
     { 
         id: 3, 
@@ -25,7 +72,7 @@ const projectData = [
        
         keyfeatures: "The WordPress Blog Platform project offers streamlined content management, customization, user engagement, and SEO optimization, with seamless social media integration and responsive design. It fosters community interaction and provides analytics insights for content optimization.",
         liveLink: "https://example.com",
-        githubLink: "https://github.com/example"
+        githubLink: "https://github.com/singh123shubham"
     },
     { 
         id: 4, 
@@ -34,8 +81,21 @@ const projectData = [
         techUsed: ["React.js", "HTML", "CSS", "JavaScript", "Framer motion"], 
         keyfeatures: "Creating a portfolio website using React offers a versatile platform to showcase your skills, projects, and experiences to potential employers, clients, or collaborators. Below is a sample project description along with key features you can include in your React portfolio website.",
         liveLink: "https://example.com",
-        githubLink: "https://github.com/example"
+        githubLink: "https://github.com/singh123shubham/PortfolioWebsite",
+        galleryPhotos :[portfolioImg1,portfolioImg2,portfolioImg3,portfolioImg4,portfolioImg5,portfolioImg6,portfolioImg7]
     },
+    { 
+        id: 5, 
+        title: "Travels website design (Landing page)", 
+        description: "The Travels Website Landing Page serves as the initial point of contact for users interested in exploring a wide range of flower varieties along with their respective prices. This project is implemented using HTML, CSS, and JavaScript to create an engaging and visually appealing interface.The Flower Website Landing Page offers a visually appealing and user-friendly interface for users to explore a diverse selection of flower varieties and their corresponding prices. Implemented using HTML, CSS, and JavaScript, the project demonstrates proficiency in front-end web development techniques and principles, including responsive design, interactivity, and usability considerations.", 
+        techUsed: ["Html, CSS, JavaScript"],
+        keyfeatures: "The Travels Website Landing Page features stunning design with high-quality images and vibrant colors, providing a comprehensive price list for easy browsing. Interactive elements and cross-device compatibility enhance user engagement, driving conversion and retention rates.",
+        liveLink: "https://spectacular-licorice-7d0c1b.netlify.app/",
+        githubLink: "https://github.com/singh123shubham/travelwebsiteLandingPage",
+        galleryPhotos: [ travlepng, travlepng1 ,travlepng2,travlepng3,travlepng4,travlepng5]
+    },
+
+
   ];
 
 

@@ -8,9 +8,16 @@ const ProjectDetails = () => {
   const project = ProjectData.find((p) => p.id === parseInt(id));
 
   const handleClickGitHub = () => {
-    const githubURL = "https://github.com/singh123shubham"
+    if(!project.githubLink) return;
+    const githubURL = project.githubLink
     window.open(githubURL, '_blank');
 
+  }
+
+  const handleClickLive = () => {
+    if (!project.liveLink) return;
+    const liveURL = project.liveLink;
+    window.open(liveURL, "_blank");
   }
 
   if (!project) {
@@ -65,6 +72,7 @@ const ProjectDetails = () => {
             }}
             whileTap={{ scale: 0.9, rotate: -5 }}
             transition={{ duration: 0.2 }}
+            onClick={handleClickLive}
             style={{
               backgroundColor: "blueviolet",
               color: "white",
@@ -98,7 +106,28 @@ const ProjectDetails = () => {
           >
             GitHub
           </motion.button>
+
+
+        
+<motion.div className="gallery" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+    <motion.h1 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>Gallery</motion.h1>
+    {project.galleryPhotos && project.galleryPhotos.length > 0 ? (
+        <ul className="photo-list">
+            {project.galleryPhotos.map((photo, index) => (
+                <motion.li key={index} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                    <motion.img src={photo} alt={`Photo ${index}`} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} />
+                </motion.li>
+            ))}
+        </ul>
+    ) : (
+        <p>No photos available</p>
+    )}
+</motion.div>
+
+
       </div>
+
+    
     </motion.div>
   );
 };

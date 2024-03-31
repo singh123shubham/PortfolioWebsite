@@ -128,3 +128,35 @@ button:hover {
     
     }
   
+
+
+    .gallery {
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  .gallery h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  
+  .photo-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .photo-list li {
+      margin: 10px;
+  }
+  
+  .photo-list li img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  

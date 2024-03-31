@@ -40,6 +40,7 @@ const App = () => {
     return (
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<motion.div initial="out" animate="in" exit="out" variants={pageTransition}><About /></motion.div>} />
           <Route path="/about" element={<motion.div initial="out" animate="in" exit="out" variants={pageTransition}><About /></motion.div>} />
           <Route path="/experience" element={<motion.div initial="out" animate="in" exit="out" variants={pageTransition}><Experience /></motion.div>} />
           <Route path="/projects" element={<motion.div initial="out" animate="in" exit="out" variants={pageTransition}><Projects /></motion.div>} />
