@@ -28,10 +28,10 @@ const projectData = [
     { 
         id: 0, 
         title: "Netflix Clone", 
-        description: "The food ordering app project utilized Swiggy data from practice  purposes and implemented dynamic routing, custom hooks and code splitting using Parcel.js for optimal performance.Shimmer UI was utilized for real-time updates via APIs and asynchronous requests.The project helped expand knowledge in web development and provided valuable experience in building a user-friendly and practical apllication.", 
+        description: "NetflixClone is a cutting-edge movie information platform powered by advanced AI technology. With NetflixClone, you can explore movies, discover new favorites, and get personalized movie recommendations based on any query you provide, thanks to the powerful OpenAI API integration.",
         keyfeatures: "Shimmer Effect: Implemented for indicating data loading - 20% Infinite Scrolling: For seamless loading of new data - 15% Sorting of Restaurants: Enhances user experience - 10% Debouncing Effect: Reduces unnecessary requests - 10% Lazy Loading/Bundle Chunking: Improves initial loading speed - 20% React-Redux State Management: Optimizes state handling - 25% Overall, the optimization level achieved would be around 100% when considering these key features and their respective impacts on enhancing performance and user experience.",
         techUsed: ["HTML", "CSS","JavaScript", "React","Tailwind CSS","Redux,Firebase,TMDB Movie API, etc.."],
-        liveLink: "https://example.com",
+        liveLink: "https://6609743db18ed8cbba608ae5--delicate-malabi-c7dc53.netlify.app/",
         githubLink: "https://github.com/singh123shubham/NetlexClone",
         galleryPhotos: [
             netflixImg1,
@@ -71,7 +71,7 @@ const projectData = [
         techUsed: ["WordPress, PHP, MySQL, HTML, CSS, JavaScript"],
        
         keyfeatures: "The WordPress Blog Platform project offers streamlined content management, customization, user engagement, and SEO optimization, with seamless social media integration and responsive design. It fosters community interaction and provides analytics insights for content optimization.",
-        liveLink: "https://example.com",
+        liveLink: "https://readshot.com/",
         githubLink: "https://github.com/singh123shubham"
     },
     { 
