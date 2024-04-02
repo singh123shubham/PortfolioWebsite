@@ -22,6 +22,15 @@ import portfolioImg4 from '../Assets/portfoliImg/portfolioImg4.png'
 import portfolioImg5 from '../Assets/portfoliImg/portfolioImg5.png'
 import portfolioImg6 from '../Assets/portfoliImg/portfolioImg6.png'
 import portfolioImg7 from '../Assets/portfoliImg/portfolioImg7.png'
+import swiggyImg1 from '../Assets/SwiggyImg/swiggyImg1.png'
+import swiggyImg2 from '../Assets/SwiggyImg/swiggyImg2.png'
+import swiggyImg3 from '../Assets/SwiggyImg/swiggyImg3.png'
+import swiggyImg4 from '../Assets/SwiggyImg/swiggyImg4.png'
+import swiggyImg5 from '../Assets/SwiggyImg/swiggyImg5.png'
+import swiggyImg6 from '../Assets/SwiggyImg/swiggyImg6.png'
+import swiggyImg7 from '../Assets/SwiggyImg/swiggyImg7.png'
+import swiggyImg8 from '../Assets/SwiggyImg/swiggyImg8.png'
+
 
 
 const projectData = [
@@ -53,7 +62,8 @@ const projectData = [
         keyfeatures: "Shimmer Effect: Implemented for indicating data loading - 20% Infinite Scrolling: For seamless loading of new data - 15% Sorting of Restaurants: Enhances user experience - 10% Debouncing Effect: Reduces unnecessary requests - 10% Lazy Loading/Bundle Chunking: Improves initial loading speed - 20% React-Redux State Management: Optimizes state handling - 25% Overall, the optimization level achieved would be around 100% when considering these key features and their respective impacts on enhancing performance and user experience.",
         techUsed: ["HTML", "CSS","JavaScript", "React","Tailwind CSS","Redux"],
         liveLink: "https://example.com",
-        githubLink: "https://github.com/singh123shubham"
+        githubLink: "https://github.com/singh123shubham",
+        galleryPhotos:[ swiggyImg1,swiggyImg2,swiggyImg3,swiggyImg4,swiggyImg5,swiggyImg6,swiggyImg7,swiggyImg8]
     },
     { 
         id: 2, 
